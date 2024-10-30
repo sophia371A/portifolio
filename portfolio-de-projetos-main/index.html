@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="4646084.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Sophia</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Sou aluna do Ensino Médio. Nas aulas de programação estou aprendendo como fazer sites e códigos usando HTML, CSS e JavaScript. Veja os projetos
+            que já desenvolvi!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Screenshot 2024-10-30 at 11-24-46 AluraBooks.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Recanto dos Livros</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta elementos similares a da página inicial de um site de uma livraria, incluindo informações sobre os livros, livros mais vendidos e novos lançamentos e informações sobre a compra. A página é estilizada com CSS para uma visualização agradável.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Screenshot 2024-10-30 at 11-22-13 AluraBooks.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Recanto dos Livros aprimorado</h5>
+                        <p class="card-text">Este projeto é uma versão apriorada da página web da livraria apresentada anteriormente e que possui elementos similares a da página inicial de um site de uma livraria, incluindo informações sobre os livros, livros mais vendidos e novos lançamentos e informações sobre a compra. A página é estilizada com CSS para uma visualização agradável e usa fontes
+                            externas do Google Fonts. Esta versão adciona informações sobre parcerias de venda com sites e a livraria e também sobre os fornecedores ou editoras com quem a livraria trabalha. </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Screenshot 2024-10-30 at 11-48-35 Flashcard.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Flashcard: Perguntas e respostas sobre insetos!
+                        </h5>
+                        <p class="card-text">Este projeto é um jogo interativo de Flashcards que mostram perguntas sobre insrtos presentes em diferentes tipos de insetos e ao clicar nas cartas elas se viram e mostram a resposta para a pergunta. Os flashcards também incluem informações sobre a ordem de cada um desses insetos.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Recanto dos Livros</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é uma página web que apresenta elementos similares a da página inicial de um site de uma livraria, incluindo informações sobre os livros, livros mais vendidos e novos lançamentos e informações sobre a compra. A página é estilizada com CSS para uma visualização agradável.</p>
+                    <p>A estrutura do site é baseada em HTML, que define a semântica e o layout do conteúdo,
+                        enquanto o CSS é usado para estilizar a página visualmente, incluindo cores, tipografia e a
+                        disposição dos elementos. E o VS Code foi usado para a programação do site.</p>
+                    <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão
+                        principal (.container) que apresenta o propósito do site e a coleção de livros em uma seção
+                        flexível (.livros). Cada livro é destacado em seu próprio contêiner (.livro), mostrando uma
+                        imagem da capa e alguns possuem detalhes sobre o livro. O design responsivo é garantido pelo
+                        uso de uma meta tag viewport e um layout flexível que se adapta a diferentes tamanhos de
+                        tela.</p>
+                    <p>O CSS personaliza o visual do site, usando variáveis para cores, estilizando o texto com uma
+                        fonte importada do Google Fonts e aplicando um esquema de cores suaves e botões interativos.
+                        O uso de HTML e CSS é importante pois assim é possível criar um site acessível e
+                        esteticamente agradável sem a necessidade de scripts complexos, com foco na usabilidade e na
+                        experiência da pessoa usuária. A escolha da tipografia e do esquema de cores contribui para
+                        a atmosfera acolhedora do site, incentivando a exploração da coleção de livros.</p>
+                    <img src="Screenshot 2024-10-30 at 11-24-46 AluraBooks.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="file:///tmp/guest-5gzelc/%C3%81rea%20de%20Trabalho/alura1212-main/alura-books-aula12/index.html">Ver projeto ao vivo</a>
+                    <a href="https://github.com/sophia371A/alura1212.git">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Recanto dos Livros aprimorado</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto consiste em uma aplicação web interativa, desenvolvida com HTML, CSS, e JavaScript, que
+                        simula uma experiência em site de uma livraria com algumas mudanças. Possui elementos similares a da página inicial de um site de uma livraria, incluindo informações sobre os livros, livros mais vendidos e novos lançamentos e informações sobre a compra. A página é estilizada com CSS para uma visualização agradável e usa fontes
+                        externas do Google Fonts. Esta versão adciona informações sobre parcerias de venda com sites e a livraria e também sobre os fornecedores ou editoras com quem a livraria trabalha. 
+                    </p>
+                    <p>O HTML estrutura o conteúdo da página, dividindo-o em seções como a tela inicial, caixa de
+                        perguntas, alternativas de resposta, e o resultado final baseado nas escolhas do jogador. O CSS
+                        é utilizado para estilizar a página, empregando um esquema de cores futurista e layout
+                        responsivo para melhorar a experiência do usuário. JavaScript é usado para adicionar
+                        interatividade ao jogo, manipulando o DOM para atualizar o conteúdo da página conforme as
+                        escolhas do jogador, e determinando o fluxo da narrativa através de uma série de perguntas e
+                        respostas.</p>
+                    <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão
+                        principal (.container) que apresenta o propósito do site e a coleção de livros em uma seção
+                        flexível (.livros). Cada livro é destacado em seu próprio contêiner (.livro), mostrando uma
+                        imagem da capa e alguns possuem detalhes sobre o livro. O design responsivo é garantido pelo
+                        uso de uma meta tag viewport e um layout flexível que se adapta a diferentes tamanhos de
+                        tela.</p>
+                    <p>O CSS personaliza o visual do site, usando variáveis para cores, estilizando o texto com uma
+                        fonte importada do Google Fonts e aplicando um esquema de cores suaves e botões interativos.
+                        O uso de HTML e CSS é importante pois assim é possível criar um site acessível e
+                        esteticamente agradável sem a necessidade de scripts complexos, com foco na usabilidade e na
+                        experiência da pessoa usuária. A escolha da tipografia e do esquema de cores contribui para
+                        a atmosfera acolhedora do site, incentivando a exploração da coleção de livros.
+                    </p>
+                    <img src="Screenshot 2024-10-30 at 11-59-52 AluraBooks.png" cl
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="file:///tmp/guest-5gzelc/%C3%81rea%20de%20Trabalho/aluraaula20-main/alura-books-aula20/index.html">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/sophia371A/aluraaula20.git">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Flashcard: Perguntas e respostas sobre insetos!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma aplicação educativa interativa focada em ensinar conceitos e curiosidades sobre insetos. O objetivo é testar o conhecimentos do jogador sobre diferentes insetos e suas ordens, através
+                        de interações e visualizações dinâmicas de flashcards contendo perguntas e as respostas em seu verso que podem ser visualizadas ao clicar no flashcard.</p>
+                    <p>O HTML estrutura o conteúdo da página, incluindo tela inicial, caixa de
+                        perguntas e as repostas no verso. O CSS é utilizado para estilizar a página, empregando um esquema de cores futurista e layout
+                        responsivo para melhorar a experiência do usuário. JavaScript é usado para adicionar
+                        interatividade ao jogo, manipulando o DOM para atualizar o conteúdo da página conforme as
+                        escolhas do jogador, e determinando o fluxo da narrativa através de uma série de perguntas e
+                        respostas.</p>
+                    <p>A importância das ferramentas utilizadas reside na sua acessibilidade e na capacidade de engajar aprendizes de diferentes idades
+                        no pensamento computacional e na exploração de conceitos científicos de forma
+                        interativa. O uso de cenários, movimentos, e diálogos dinâmicos ajuda a criar uma
+                        experiência de aprendizado mais rica e memorável, encorajando os usuários a explorar e
+                        interagir com o conteúdo de maneira ativa, em vez de passivamente.</p>
+                    <img src="Screenshot 2024-10-30 at 11-48-35 Flashcard.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="file:///tmp/guest-5gzelc/%C3%81rea%20de%20Trabalho/flashcardaula10-main/flashcard-aula_10/index.html">Ver projeto ao vivo</a>
+                    <a href="https://github.com/sophia371A/flashcardaula10.git">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/femascheti">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Sophia Mendonça</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
